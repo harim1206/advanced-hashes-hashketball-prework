@@ -144,7 +144,6 @@ def num_points_scored(player_name)
 
       if attribute == :players
 
-
         data.each{
           |player, statistic|
 
@@ -154,7 +153,7 @@ def num_points_scored(player_name)
             return statistic[:points]
           end
         }
-        
+
       end
 
     }
@@ -165,6 +164,7 @@ end
 num_points_scored("Alan Anderson")
 num_points_scored("Reggie Evans")
 
+def shoe_size(player_name)
 
 =begin
 
