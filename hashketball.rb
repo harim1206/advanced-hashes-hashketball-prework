@@ -199,7 +199,7 @@ def team_colors(team_name)
 
     team_data.each{
       |attribute, data|
-      if data == :colors
+      if attribute == :colors
 
       end
 
