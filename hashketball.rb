@@ -195,7 +195,7 @@ def team_colors(team_name)
   game_hash.each{
     |location, team_data|
 
-    binding.pry
+    #binding.pry
 
     team_data.each{
       |attribute, data|
