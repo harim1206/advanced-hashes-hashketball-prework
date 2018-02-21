@@ -149,9 +149,9 @@ def num_points_scored(player_name)
           |player, statistic|
 
           if player == player_name
-            binding.pry
-            puts player[:points]
-            return player[:points]
+
+            puts statistic[:points]
+            return statistic[:points]
           end
         }
 
