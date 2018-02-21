@@ -198,7 +198,9 @@ def team_colors(team_name)
     #binding.pry
 
     if team_data[:team_name] == team_name
+      puts (team_data[:colors])
       return team_data[:colors]
+    end
 
   }
 
