@@ -191,6 +191,9 @@ end
 
 shoe_size("Reggie Evans")
 
+def team_colors(team_name)
+
+end
 
 =begin
 
