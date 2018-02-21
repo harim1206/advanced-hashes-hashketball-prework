@@ -193,9 +193,17 @@ shoe_size("Reggie Evans")
 
 def team_colors(team_name)
   game_hash.each{
-    |location, data|
+    |location, team_data|
 
-    if data = :colors
+    team_data.each{
+      |attribute, data|
+      if data = :colors
+        
+      end
+      
+    }
+
+    
       
 
     end
