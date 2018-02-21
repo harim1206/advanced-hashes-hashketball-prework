@@ -152,6 +152,7 @@ def num_points_scored(player_name)
 
         data.each{
           |player, statistic|
+          binding.pry
         }
 
       end
