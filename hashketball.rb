@@ -162,7 +162,6 @@ def num_points_scored(player_name)
 end
 
 num_points_scored("Alan Anderson")
-num_points_scored("Reggie Evans")
 
 def shoe_size(player_name)
   game_hash.each{
@@ -189,6 +188,9 @@ def shoe_size(player_name)
   }
 
 end
+
+shoe_size("Reggie Evans")
+
 
 =begin
 
