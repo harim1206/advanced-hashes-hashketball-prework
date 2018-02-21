@@ -165,6 +165,28 @@ num_points_scored("Alan Anderson")
 num_points_scored("Reggie Evans")
 
 def shoe_size(player_name)
+  game_hash.each{
+    |location, team_data|
+
+    team_data.each{
+      |attribute, data|
+
+      if attribute == :players
+
+        data.each{
+          |player, statistic|
+
+          if player == player_name
+
+            puts statistic[:shoe]
+            return statistic[:shoe]
+          end
+        }
+
+      end
+
+    }
+  }
 
 end
 
