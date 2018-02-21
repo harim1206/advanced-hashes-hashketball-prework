@@ -165,6 +165,8 @@ def num_points_scored(player_name)
 end
 
 num_points_scored("Alan Anderson")
+num_points_scored("Reggie Evans")
+
 
 =begin
 
