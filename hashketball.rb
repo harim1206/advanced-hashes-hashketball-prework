@@ -208,6 +208,8 @@ def team_colors(team_name)
 
 end
 
+team_colors("Brooklyn Nets")
+
 =begin
 
 def good_practices
