@@ -196,11 +196,12 @@ def team_colors(team_name)
     |location, data|
 
     if data = :colors
+      
 
     end
-  
 
-    
+
+
   }
 
 end
