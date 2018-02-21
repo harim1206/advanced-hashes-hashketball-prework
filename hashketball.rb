@@ -144,10 +144,7 @@ def num_points_scored(player_name)
     team_data.each{
       |attribute, data|
 
-      binding.pry
-
       if attribute == :players
-        puts("FLAGFLAGFLAGFLAG")
 
 
         data.each{
