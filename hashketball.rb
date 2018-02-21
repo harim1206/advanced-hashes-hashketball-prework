@@ -166,6 +166,8 @@ num_points_scored("Reggie Evans")
 
 def shoe_size(player_name)
 
+end
+
 =begin
 
 def good_practices
