@@ -197,17 +197,8 @@ def team_colors(team_name)
 
     #binding.pry
 
-    team_data.each{
-      |attribute, data|
 
-      if attribute == :colors && data == team_name
-        
-      if attribute == :colors
-        puts(data)
 
-      end
-
-    }
   }
 
 end
